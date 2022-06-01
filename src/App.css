@@ -1,5 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* Declaração de variaveis */
+  --vermelho: #e50914;
+  --preto: #141414;
+}
+
 .App {
   text-align: center;
+  background: var(--preto);
+  font-family: "Arial", Times, serif;
+  color: #fff;
 }
 
 .App-logo {
