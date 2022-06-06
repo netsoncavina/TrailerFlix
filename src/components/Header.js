@@ -1,5 +1,5 @@
-import "./header.css";
-import "./responsive.css";
+import "./styles/header.css";
+import "./styles/responsive.css";
 
 export default function Header() {
   return (

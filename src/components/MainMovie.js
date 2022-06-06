@@ -1,5 +1,5 @@
-import "./mainMovie.css";
-import "./responsive.css";
+import "./styles/mainMovie.css";
+import "./styles/responsive.css";
 export default function MainMovie() {
   return (
     <div class="filme-principal" id="filme-principal">
