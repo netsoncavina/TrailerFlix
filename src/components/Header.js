@@ -2,8 +2,8 @@ import "./header.css";
 export default function Header() {
   return (
     <header>
-      <div class="container">
-        <h2 class="logo">TRAILERFLIX</h2>
+      <div className="container">
+        <h2 className="logo">TRAILERFLIX</h2>
         <nav>
           <a href="#">Inicio</a>
           <a href="#">Series</a>
