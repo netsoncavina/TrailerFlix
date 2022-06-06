@@ -1,5 +1,6 @@
 import "./styles/movieCard.css";
 import "./styles/responsive.css";
+
 export default function MovieCard() {
   return (
     <div className="item">
