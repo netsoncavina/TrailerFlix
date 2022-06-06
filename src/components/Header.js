@@ -1,4 +1,6 @@
 import "./header.css";
+import "./responsive.css";
+
 export default function Header() {
   return (
     <header>
