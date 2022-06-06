@@ -2,29 +2,29 @@ import "./styles/mainMovie.css";
 import "./styles/responsive.css";
 export default function MainMovie() {
   return (
-    <div class="filme-principal" id="filme-principal">
-      <div class="container">
-        <h3 class="titulo" id="titulo">
+    <div className="filme-principal" id="filme-principal">
+      <div className="container">
+        <h3 className="titulo" id="titulo">
           House of Cards
         </h3>
-        <p class="descricao" id="sinopse">
+        <p className="descricao" id="sinopse">
           Um político inescrupuloso não mede esforços para conquistar o poder
           nos EUA neste drama vencedor do Emmy e do Globo de Ouro.
         </p>
-        <div class="botoes">
+        <div className="botoes">
           <a
-            class="popup"
+            className="popup"
             id="trailer"
             href="https://www.youtube.com/watch?v=8QnMmpfKWvo"
           >
-            <button role="button" class="botao">
-              <i class="fas fa-play"></i>
+            <button role="button" className="botao">
+              <i className="fas fa-play"></i>
               ASSISTIR TRAILER
             </button>
           </a>
           <a id="info" onclick="">
-            <button role="button" class="botao">
-              <i class="fas fa-info-circle"></i>
+            <button role="button" className="botao">
+              <i className="fas fa-info-circle"></i>
               MAIS INFORMAÇÕES
             </button>
           </a>
